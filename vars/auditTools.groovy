@@ -1,10 +1,10 @@
-def call{
+def call(){
     node{
         sh '''
-    git version
-    docker version
-    node --version
-    npm version
-''' 
+        git version
+        docker version
+        node --version
+        npm version
+        ''' 
     }
 }
